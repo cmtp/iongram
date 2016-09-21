@@ -38,8 +38,8 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
     url: '/login',
     templateUrl: 'templates/login.html'
   })
-  .state('tabs', {
-    url: 'tabs',
+  .state('tab', {
+    url: 'tab',
     abstract: true,
     templateUrl: 'templates/tabs.html'
   })
