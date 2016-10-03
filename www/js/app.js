@@ -39,7 +39,7 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
     templateUrl: 'templates/login.html'
   })
   .state('tab', {
-    url: 'tab',
+    url: '/tab',
     abstract: true,
     templateUrl: 'templates/tabs.html'
   })
@@ -88,7 +88,7 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
     templateUrl: 'templates/filters.html'
   })
   .state('comments', {
-    url: '/comments',
+    url: '/comments/:id',
     templateUrl: 'templates/comments.html'
   });
 });
