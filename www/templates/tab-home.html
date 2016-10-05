@@ -1,6 +1,28 @@
-<ion-view view-title="home">
+<ion-view>
+    <ion-nav-title>
+        <img src="img/logo/logo2.png" alt="" class="img-logo">
+    </ion-nav-title>
     <ion-content>
-        <h1>Home</h1>
-        <a href="#/comments/1" class="button button-dark">Ver un comentario</a>
+        <ion-list class="photo">
+            <ion-item class="item item-item-button-right item-avatar">
+                <img src="img/ben.png" alt="">
+                <h2>User 1</h2>
+                <button class="button button-dark button-clear">
+                    <i class="icon ion-more"></i>
+                </button>
+            </ion-item>
+            <ion-item class="item-image">
+                <img src="img/ionic.png" alt="">
+            </ion-item>
+            <ion-item class="buttons">
+                <button class="button button-dark button-clear icon ion-ios-heart-outline"></button>
+                <a href="#/comments/1" class="button button-dark button-clear icon ion-ios-chatboxes-outline"></a>
+                <button class="button button-dark button-clear icon ion-ios-redo-outline"></button>
+            </ion-item>
+            <ion-item>
+                <p><i class="icon ion-heart"></i> 13 likes</p>
+                <p><strong>chris</strong> Museo al aire libre en san miguel!</p>
+            </ion-item>
+        </ion-list>
     </ion-content>
 </ion-view>

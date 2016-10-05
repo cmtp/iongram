@@ -9815,6 +9815,12 @@ a.button {
   -webkit-transition-duration: 0s;
   transition-duration: 0s; }
 
+.text-center {
+  text-align: center; }
+
+.img-logo {
+  height: 100%; }
+
 .login {
   background: #4368b6; }
   .login ::-webkit-input-placeholder {
@@ -9839,3 +9845,17 @@ a.button {
   .login .bar-footer {
     color: white;
     background-color: rgba(255, 255, 255, 0.1); }
+
+.photo h2 {
+  font-weight: bold; }
+
+.photo .item-avatar {
+  min-height: auto;
+  padding-left: 56px; }
+  .photo .item-avatar img:first-child {
+    max-width: 30px;
+    max-height: 30px;
+    top: 10px; }
+
+.photo .buttons {
+  padding: 0; }
