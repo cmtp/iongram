@@ -1,5 +1,44 @@
-<ion-view view-title="filters">
-    <ion-content>
-        <h1>Filters</h1>
+<ion-view view-title="filtros">
+    <ion-nav-buttons side="right">
+        <a href="#/tab/home"  class="button button-clear button-dark">Siguiente</a>
+    </ion-nav-buttons>
+    <ion-content class="filters">
+        <div class="photo">
+            <img src="img/adam.jpg" class="full-image" alt="img">
+        </div>
+        <ion-scroll zooming="false" direction="x" class="scroll-filters">
+            <div class="row">
+                <div class="col col-40">
+                    <p class="text-center">Normal</p>
+                    <div class="filter">
+                        <img src="img/adam.jpg" class="full-image grayscale" alt="img">
+                    </div>
+                </div>
+                <div class="col col-40">
+                    <p class="text-center">Grayscale</p>
+                    <div class="filter">
+                        <img src="img/adam.jpg" class="full-image sepia" alt="img">
+                    </div>
+                </div>
+                <div class="col col-40">
+                    <p class="text-center">Sepia</p>
+                    <div class="filter">
+                        <img src="img/adam.jpg" class="full-image saturate" alt="img">
+                    </div>
+                </div>
+                <div class="col col-40">
+                    <p class="text-center">Saturate</p>
+                    <div class="filter">
+                        <img src="img/adam.jpg" class="full-image hue-rotate" alt="img">
+                    </div>
+                </div>
+                <div class="col col-40">
+                    <p class="text-center">Hue-rotate</p>
+                    <div class="filter">
+                        <img src="img/adam.jpg" class="full-image" alt="img">
+                    </div>
+                </div>
+            </div>
+        </ion-scroll>
     </ion-content>
 </ion-view>
